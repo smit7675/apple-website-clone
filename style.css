@@ -1,0 +1,788 @@
+     * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+     }
+
+     .navigater {
+       margin: 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: #e8e8ed;
+       height: 3rem;
+       gap: 1.5rem;
+     }
+
+     .bot {
+       position: fixed;
+       right: 1rem;
+       bottom: 1rem;
+     }
+
+     .bot img {
+       height: 3.5rem;
+       width: 3.5rem;
+       border-radius: 50%;
+
+       background-color: skyblue;
+     }
+
+     .emi {
+       align-items: center;
+       background-color: whitesmoke;
+       display: flex;
+       justify-content: center;
+       gap: 0.5rem;
+       padding-top: 1rem;
+       padding-bottom: 1rem;
+       flex: 0 0 auto;
+     }
+
+     .Store {
+
+       background-color: #e8e8ed;
+       display: flex;
+       justify-content: space-between;
+       overflow-x: hidden;
+     }
+
+     .tore {
+       font-size: 5rem;
+       margin-left: 7rem;
+       font-family:
+         "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+     }
+
+     .love {
+       text-align: right;
+       margin-right: 7rem;
+     }
+
+     .love p {
+       color: rgb(105, 210, 251);
+     }
+
+     .love h1 {
+       font-family:
+         "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+     }
+
+     .products {
+       background-color: #e8e8ed;
+       display: flex;
+       overflow-x: hidden;
+       padding-left: 7rem;
+     }
+
+     .products img {
+       background-color: #e8e8ed;
+       height: 8rem;
+       width: 8rem;
+       margin: 0.7rem;
+     }
+
+     .latest {
+       font-size: 2rem;
+       background-color: #e8e8ed;
+       padding-left: 7rem;
+       padding-top: 1rem;
+     }
+
+     .Take {
+       padding-left: 18rem;
+       padding-top: 2rem;
+       padding: 2rem;
+       width: 100%;
+       display: flex;
+       overflow-x: hidden;
+       background-color: #e8e8ed;
+       padding-left: 7rem;
+     }
+
+     .img01 {
+       flex: 0 0 auto;
+       background-image: url(./store-card-40-macbook-neo-202603.jfif);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: left;
+       padding: 2.5rem;
+       width: 25rem;
+       height: 32rem;
+       border-radius: 20px;
+     }
+
+     .img02 {
+       flex: 0 0 auto;
+       background-image: url(./store-card-40-iphone-17e-202603.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: left;
+       padding: 2.5rem;
+       width: 25rem;
+       height: 32rem;
+       border-radius: 20px;
+       margin-left: 1.5rem;
+     }
+
+     .img03 {
+       flex: 0 0 auto;
+       background-image: url(./store-card-40-macbook-pro-202510.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: left;
+       padding: 2.5rem;
+       width: 25rem;
+       height: 32rem;
+       border-radius: 20px;
+       margin-left: 1.5rem;
+     }
+
+     .img04 {
+       flex: 0 0 auto;
+       background-image: url(./store-card-40-macbook-air-202603.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: left;
+       padding: 2.5rem;
+       width: 25rem;
+       height: 32rem;
+       border-radius: 20px;
+       margin-left: 1.5rem;
+     }
+
+     .orang {
+       color: orange;
+     }
+
+     .main {
+       display: flex;
+     }
+
+     .reasons {
+       margin-top: -2rem;
+       padding-top: 2rem;
+       padding-left: 7rem;
+       font-size: 2rem;
+       background-color: #e8e8ed;
+       padding-bottom: 1rem;
+     }
+
+     .box {
+       display: flex;
+       justify-content: space-evenly;
+       gap: 2rem;
+       background-color: #e8e8ed;
+       padding-left: 7rem;
+       overflow-x: hidden;
+       flex: 0 0 auto;
+     }
+
+     .box1 {
+       padding: 1rem;
+       padding-top: 2rem;
+       width: 25rem;
+       height: 12rem;
+       background-color: white;
+       border-radius: 1rem;
+       font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+       font-weight: 600;
+     }
+
+     .box2 {
+       padding: 1rem;
+       padding-top: 2rem;
+       width: 25rem;
+       height: 12rem;
+       background-color: white;
+       border-radius: 1rem;
+       font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+       font-weight: 600;
+     }
+
+     .box2 span {
+       color: rgb(39, 101, 208);
+     }
+
+     .box3 {
+       padding: 1rem;
+       padding-top: 2rem;
+       width: 25rem;
+       height: 12rem;
+       background-color: white;
+       border-radius: 1rem;
+     }
+
+     .boxl3 {
+       font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+       font-weight: 600;
+       background: linear-gradient(90deg,
+           #ff7a18,
+           #ff5e62,
+           #b06ab3,
+           #4facfe,
+           #43e97b);
+       -webkit-background-clip: text;
+       color: transparent;
+     }
+
+     .box4 {
+       padding: 1rem;
+       padding-top: 2rem;
+       width: 25rem;
+       height: 12rem;
+       background-color: white;
+       border-radius: 1rem;
+       font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+       font-weight: 600;
+     }
+
+     .box4 span {
+       color: #AC39FF;
+     }
+
+     .box5 {
+       padding: 1rem;
+       padding-top: 2rem;
+       width: 25rem;
+       height: 12rem;
+       background-color: white;
+       border-radius: 1rem;
+       font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+       font-weight: 600;
+     }
+
+     .box5 span {
+       color: #43e97b;
+     }
+
+     .Whenever {
+       padding-top: 2rem;
+       background-color: #e8e8ed;
+       font-size: 2rem;
+       padding-left: 7rem;
+     }
+
+     .need {
+       display: flex;
+       justify-content: space-evenly;
+       background-color: #e8e8ed;
+       gap: 2rem;
+       overflow-x: hidden;
+
+     }
+
+     .STORE {
+       background-image: url(/store-card-40-nso-202512_GEO_IN.jfif);
+       height: 31rem;
+       width: 25rem;
+       border-radius: 1.5rem;
+       background-size: cover;
+       background-repeat: no-repeat;
+       color: white;
+       background-position: right;
+       margin-left: 7rem;
+       margin-top: 2rem;
+     }
+
+     .STORE p {
+       margin: 2rem;
+       color: white;
+       line-height: 0.5rem;
+     }
+
+     .video {
+       background-image: url(/store-card-50-specialist-video-202601_GEO_IN.jfif);
+       height: 31rem;
+       width: 28rem;
+       border-radius: 1.5rem;
+       background-size: cover;
+       background-repeat: no-repeat;
+       color: white;
+       margin-top: 2rem;
+     }
+
+     .video p {
+       margin: 2rem;
+       color: black;
+       line-height: 1.5rem;
+     }
+
+     .help1 {
+       background-image: url(store-card-50-specialist-help-202512.jfif);
+       height: 31rem;
+       width: 28rem;
+       border-radius: 1.5rem;
+       background-size: cover;
+       background-repeat: no-repeat;
+       color: white;
+       margin-top: 2rem;
+     }
+
+     .help1 p {
+       margin: 2rem;
+       color: black;
+       line-height: 1.5rem;
+     }
+
+     .pair {
+       padding-top: 2rem;
+       background-color: #e8e8ed;
+       font-size: 2rem;
+       padding-left: 7rem;
+     }
+
+     .Essentials {
+       display: flex;
+       justify-content: space-evenly;
+       flex: 0 0 auto;
+       background-color: #e8e8ed;
+       gap: 2rem;
+       overflow-x: hidden;
+     }
+
+     .wow {
+       background-image: url(/store-card-40-accessories-000001.jfif);
+       height: 31rem;
+       width: 25rem;
+       border-radius: 1.5rem;
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       color: white;
+       margin-left: 7rem;
+       margin-top: 2rem;
+       line-height: 1rem;
+     }
+
+     .wow p {
+       margin-top: 1rem;
+       margin-left: 2rem;
+       color: black;
+     }
+
+     .iPhone17e {
+       background-image: url(/000000002.jpg);
+       background-position: bottom;
+       height: 31rem;
+       width: 25rem;
+       border-radius: 1.5rem;
+       background-size: contain;
+
+       background-repeat: no-repeat;
+       color: white;
+       margin-top: 2rem;
+       /* line-height: 0rem; */
+       background-color: white;
+       padding-top: 1rem;
+     }
+
+     .iPhone17e p {
+       margin-top: rem;
+       margin-left: 2rem;
+       color: black;
+     }
+
+     .Crossbody {
+       background-image: url(/MHYX4cabal.jpeg);
+       background-position: bottom;
+       height: 31rem;
+       width: 25rem;
+       border-radius: 1.5rem;
+       background-size: contain;
+
+       background-repeat: no-repeat;
+       color: white;
+       margin-top: 2rem;
+       /* line-height: 0rem; */
+       background-color: white;
+       padding-top: 1rem;
+     }
+
+     .Strap p {
+       margin-top: rem;
+       margin-left: 2rem;
+       color: black;
+     }
+
+     .MagSafe {
+       background-image: url(/MGD74macsafe.jpeg);
+       background-position: bottom;
+       height: 31rem;
+       width: 25rem;
+       border-radius: 1.5rem;
+       background-size: contain;
+
+       background-repeat: no-repeat;
+       color: white;
+       margin-top: 2rem;
+       /* line-height: 0rem; */
+       background-color: white;
+       padding-top: 1rem;
+     }
+
+     .Charger p {
+       margin-top: rem;
+       margin-left: 2rem;
+       color: black;
+     }
+
+     .Unparalleled {
+       padding-top: 2rem;
+       background-color: #e8e8ed;
+       font-size: 2rem;
+       padding-left: 7rem;
+     }
+
+     .laptop {
+       display: flex;
+       justify-content: space-around;
+       background-color: #e8e8ed;
+       gap: 2rem;
+       overflow-x: hidden;
+       overflow-y: hidden;
+     }
+
+     .Music {
+       background-image: url(/store-card-40-apple-music-202509_get_3moths.jpeg);
+       flex: 0 0 auto;
+       height: 31rem;
+       width: 25rem;
+       border-radius: 1.5rem;
+       background-size: cover;
+       /* background-position: top; */
+       background-repeat: no-repeat;
+       color: black;
+       margin-left: 7rem;
+       margin-top: 2rem;
+       line-height: 1.5rem;
+     }
+
+     .Music p {
+       margin-top: 1rem;
+       margin-left: 2rem;
+       color: black;
+     }
+
+     .AirPods {
+       height: 31rem;
+       width: 25rem;
+       border-radius: 1.5rem;
+       /* background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; */
+       margin-top: 2rem;
+       line-height: 1.5rem;
+       background-color: white;
+     }
+
+     .AirPods img {
+       height: 22;
+       width: 20;
+       border-radius: 1.5rem;
+     }
+
+     .AirPods p {
+       margin-top: 0rem;
+       margin-left: 2rem;
+       color: black;
+     }
+
+     .AirPods4 {
+       height: 31rem;
+       width: 25rem;
+       border-radius: 1.5rem;
+       margin-top: 2rem;
+       line-height: 1.5rem;
+       background-color: white;
+     }
+
+     .AirPods4 img {
+       height: 22;
+       width: 20;
+       border-radius: 1.5rem;
+     }
+
+     .AirPods4 p {
+       margin-top: -0.8rem;
+       margin-bottom: 0.5rem;
+       margin-left: 1.5rem;
+       color: black;
+       font-size: 1rem;
+     }
+
+     .Powerbeats {
+       height: 31rem;
+       width: 25rem;
+       border-radius: 1.5rem;
+       margin-top: 2rem;
+       line-height: 1.5rem;
+       background-color: white;
+     }
+
+     .Powerbeats img {
+       height: 22;
+       width: 20;
+       border-radius: 1.5rem;
+     }
+
+     .Powerbeats p {
+       margin-top: 0rem;
+       margin-left: 2rem;
+       margin-top: -0.3rem;
+       color: black;
+     }
+
+     .experience {
+       padding-top: 2rem;
+       background-color: #e8e8ed;
+       font-size: 2rem;
+       padding-left: 7rem;
+     }
+
+     .mycontainer {
+       padding-left: 18rem;
+       padding-top: 2rem;
+       padding: 2rem;
+       width: 100%;
+       display: flex;
+       gap: 2rem;
+       overflow-x: hidden;
+       background-color: #e8e8ed;
+       padding-left: 7rem;
+     }
+
+     .mysubcontainer {
+       flex: 0 0 auto;
+       background-image: url(./my-img1.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: left;
+       padding: 2.5rem;
+       width: 33rem;
+       height: 33rem;
+       border-radius: 20px;
+     }
+
+     .maincontent {
+       font-size: 20px;
+     }
+
+     .gift {
+       flex: 0 0 auto;
+       background-image: url(store-card-40-holiday-gifting-202512gift);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: left;
+       padding: 2.5rem;
+       width: 28rem;
+       height: 33rem;
+       border-radius: 20px;
+     }
+
+     .gift1 {
+       margin-top: 2rem;
+       padding: 2rem;
+       width: 100%;
+       display: flex;
+       gap: 2rem;
+       overflow-x: scroll;
+       background-color: #e8e8ed;
+     }
+
+     .tv1 {
+       flex: 0 0 auto;
+       background-image: url(/shared-card-50-apple-tv-monarch-202602TV.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: left;
+       padding: 2.5rem;
+       width: 33rem;
+       height: 33rem;
+       border-radius: 20px;
+     }
+
+     .tv2 {
+       margin-top: -2rem;
+       padding: 2rem;
+       width: 100%;
+       display: flex;
+       gap: 2rem;
+       color: white;
+       font-size: 1.3rem;
+     }
+
+     .Savings {
+       padding-top: 2rem;
+       background-color: #e8e8ed;
+       font-size: 2rem;
+       padding-left: 7rem;
+     }
+
+     .Education {
+       padding-left: 18rem;
+       padding-top: 2rem;
+       padding: 2rem;
+       width: 100%;
+       display: flex;
+       overflow-x: hidden;
+       background-color: #e8e8ed;
+     }
+
+     .Education1 {
+       flex: 0 0 auto;
+       background-image: url(/store-card-40-bts-edu-macbook-air-ipad-air-202503.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: left;
+       padding: 2.5rem;
+       width: 23rem;
+       height: 31rem;
+       border-radius: 20px;
+       margin-left: 4rem;
+     }
+
+     .Education2 {
+       font-size: 20px;
+     }
+
+     .Quick {
+       padding-top: 2rem;
+       background-color: #e8e8ed;
+       font-size: 2rem;
+       padding-left: 7rem;
+       display: flex;
+     }
+
+     .status {
+       background-color: #e8e8ed;
+       padding-left: 6.5rem;
+       padding-top: 1rem;
+     }
+
+     .button1 {
+       background-color: #e8e8ed;
+       border: 1px solid;
+       padding: 0.8rem;
+       border-radius: 2rem;
+       margin: 0.5rem;
+     }
+
+     .text {
+       background-color: #e8e8ed;
+       color: #6e6e73;
+       font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+       font-size: 0.75rem;
+       line-height: 1rem;
+       padding-left: 17rem;
+       padding-right: 17rem;
+       padding-top: 4rem;
+       padding-bottom: 3rem;
+     }
+
+     .text p {
+       padding-bottom: 0.6rem;
+     }
+
+     .ok {
+       background-color: #e8e8ed;
+       margin-top: -1rem;
+     }
+
+     .ok1 {
+       border-top: 1px solid #6e6e73;
+       margin-left: 17rem;
+       margin-right: 17rem;
+     }
+
+     .line1 {
+       width: 60vw;
+       text-align: center;
+       padding-left: 17rem;
+       padding-right: 17rem;
+       background-color: #e8e8ed;
+       height: auto;
+     }
+
+     .line {
+       padding-top: 1rem;
+       display: flex;
+       background-color: #e8e8ed;
+       padding-left: 17rem;
+       padding-right: 17rem;
+     }
+
+     .applelogo {
+       padding-right: 1rem;
+     }
+
+     .StoreOnline {
+       margin-left: 1rem;
+       font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+       color: #424245;
+     }
+
+     .ShopandLearn {
+       color: #424245;
+     }
+
+     .infomin {
+       padding-top: 1rem;
+       display: flex;
+       justify-content: space-between;
+       background-color: #e8e8ed;
+       padding-left: 17rem;
+       padding-right: 17rem;
+       line-height: 1.5rem;
+     }
+
+     .tital {
+       font-size: 1.2rem;
+       color: black;
+     }
+
+     .ways {
+       background-color: #e8e8ed;
+       padding-left: 17rem;
+       padding-right: 17rem;
+       padding-bottom: 3rem;
+     }
+
+     .ways span {
+       color: #0000EE;
+       border-bottom: 1px solid #0000EE;
+     }
+
+     .ok2 {
+       margin-top: -1rem;
+       border-top: 1px solid #6e6e73;
+       margin-left: 17rem;
+       margin-right: 17rem;
+     }
+
+     .last {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background-color: #e8e8ed;
+       padding-left: 17rem;
+       padding-right: 17rem;
+
+     }
+
+     .Copyright {
+       background-color: #e8e8ed;
+       padding-top: 1rem;
+       padding-bottom: 2rem;
+       color: #424245;
+     }
+
+     .Copyright1 {
+       color: #424245;
+       margin-top: -1rem;
+     }
+
+     .Copyright2 {
+       margin-top: -1rem;
+       color: #424245;
+     }
