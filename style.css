@@ -102,7 +102,7 @@
 
      .img01 {
        flex: 0 0 auto;
-       background-image: url(./store-card-40-macbook-neo-202603.jfif);
+       background-image: url("store-card-40-macbook-neo-202603.jfif");
        background-repeat: no-repeat;
        background-size: cover;
        background-position: left;
@@ -114,7 +114,7 @@
 
      .img02 {
        flex: 0 0 auto;
-       background-image: url(./store-card-40-iphone-17e-202603.jpeg);
+       background-image: url("store-card-40-iphone-17e-202603.jpeg");
        background-repeat: no-repeat;
        background-size: cover;
        background-position: left;
@@ -127,7 +127,7 @@
 
      .img03 {
        flex: 0 0 auto;
-       background-image: url(./store-card-40-macbook-pro-202510.jpeg);
+       background-image: url("store-card-40-macbook-pro-202510.jpeg");
        background-repeat: no-repeat;
        background-size: cover;
        background-position: left;
@@ -140,7 +140,7 @@
 
      .img04 {
        flex: 0 0 auto;
-       background-image: url(./store-card-40-macbook-air-202603.jpeg);
+       background-image: url("store-card-40-macbook-air-202603.jpeg");
        background-repeat: no-repeat;
        background-size: cover;
        background-position: left;
@@ -273,7 +273,7 @@
      }
 
      .STORE {
-       background-image: url(/store-card-40-nso-202512_GEO_IN.jfif);
+       background-image: url("store-card-40-nso-202512_GEO_IN.jfif");
        height: 31rem;
        width: 25rem;
        border-radius: 1.5rem;
@@ -292,7 +292,7 @@
      }
 
      .video {
-       background-image: url(/store-card-50-specialist-video-202601_GEO_IN.jfif);
+       background-image: url("store-card-50-specialist-video-202601_GEO_IN.jfif");
        height: 31rem;
        width: 28rem;
        border-radius: 1.5rem;
@@ -309,7 +309,7 @@
      }
 
      .help1 {
-       background-image: url(store-card-50-specialist-help-202512.jfif);
+       background-image: url("store-card-50-specialist-help-202512.jfif");
        height: 31rem;
        width: 28rem;
        border-radius: 1.5rem;
@@ -342,7 +342,7 @@
      }
 
      .wow {
-       background-image: url(/store-card-40-accessories-000001.jfif);
+       background-image: url("store-card-40-accessories-000001.jfif");
        height: 31rem;
        width: 25rem;
        border-radius: 1.5rem;
@@ -362,7 +362,7 @@
      }
 
      .iPhone17e {
-       background-image: url(/000000002.jpg);
+       background-image: url("000000002.jpg");
        background-position: bottom;
        height: 31rem;
        width: 25rem;
@@ -384,7 +384,7 @@
      }
 
      .Crossbody {
-       background-image: url(/MHYX4cabal.jpeg);
+       background-image: url("MHYX4cabal.jpeg");
        background-position: bottom;
        height: 31rem;
        width: 25rem;
@@ -406,7 +406,7 @@
      }
 
      .MagSafe {
-       background-image: url(/MGD74macsafe.jpeg);
+       background-image: url("MGD74macsafe.jpeg");
        background-position: bottom;
        height: 31rem;
        width: 25rem;
@@ -444,7 +444,7 @@
      }
 
      .Music {
-       background-image: url(/store-card-40-apple-music-202509_get_3moths.jpeg);
+       background-image: url("store-card-40-apple-music-202509_get_3moths.jpeg");
        flex: 0 0 auto;
        height: 31rem;
        width: 25rem;
@@ -570,7 +570,7 @@
 
      .gift {
        flex: 0 0 auto;
-       background-image: url(store-card-40-holiday-gifting-202512gift);
+       background-image: url("store-card-40-holiday-gifting-202512gift");
        background-repeat: no-repeat;
        background-size: cover;
        background-position: left;
@@ -592,7 +592,7 @@
 
      .tv1 {
        flex: 0 0 auto;
-       background-image: url(/shared-card-50-apple-tv-monarch-202602TV.jpeg);
+       background-image: url("shared-card-50-apple-tv-monarch-202602TV.jpeg");
        background-repeat: no-repeat;
        background-size: cover;
        background-position: left;
@@ -631,7 +631,7 @@
 
      .Education1 {
        flex: 0 0 auto;
-       background-image: url(/store-card-40-bts-edu-macbook-air-ipad-air-202503.jpeg);
+       background-image: url("store-card-40-bts-edu-macbook-air-ipad-air-202503.jpeg");
        background-repeat: no-repeat;
        background-size: cover;
        background-position: left;
@@ -785,4 +785,5 @@
      .Copyright2 {
        margin-top: -1rem;
        color: #424245;
+
      }
